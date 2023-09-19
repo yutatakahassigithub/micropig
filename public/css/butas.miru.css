@@ -1,0 +1,125 @@
+body {
+    background-color: ;
+    text-align: center;
+}
+
+.post {
+    width: 50%;            /* 画面全体の幅を持たせます */
+    text-align: center;     /* テキストを中央に寄せます */
+    margin-top: 150px;      /* 上部からの距離を調整します */
+    padding: 10px 0;        /* 上下の余白を追加します */
+}
+
+.post p {
+    margin-bottom: 20px;    /* 各コメントの下部に余白を追加します */
+}
+
+
+
+.hr {
+    border-top: 2px dashed #FFFFFF;
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 500%;
+    top: 70px;
+    left: 0px;
+  }
+  
+
+.hr1 {
+    background-color: #FF9900;
+    position: fixed;
+    width: 500%;
+    top: 350px;
+    left: 0px;
+  }
+  
+  h1 {
+    color: #D6FEE2;
+    font-family: fantasy;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    background-color: brown; 
+}
+
+    
+.p3 {
+  position: fixed;
+  top: 130px; 
+  left: 75px; 
+  font-size: 40px;
+  font-family: fantasy;
+  line-height: 60px;
+  padding: 0;
+  margin: 0;
+} 
+  
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+.pig1 {
+  position: fixed;
+  height: 200px;
+  width: 500px;
+  top:   150px;                     /* 位置指定 */
+  left:  300px;                    /* 位置指定 */
+  right:  0px;                   /* 位置指定 */
+                 /* 中央寄せ */
+  
+ }
+ 
+ a:hover { 
+  color: orange; 
+}
+
+a:active {
+   color: orange; 
+}
+
+
+
+.p {
+  position: fixed;
+  top: 190px;
+  left: 600px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+.filter-buttons {
+  position: fixed;
+  top: 450px;
+  left: 700px;
+}
+
+h2 {
+  position: fixed;
+  top: 115px;
+  left: 600px;
+}
+
+.filter-buttons {
+  position: fixed;
+  top: 200px;
+  left: 520px;
+  color: blue; 
+}
+
+.filter-man {
+  position: fixed;
+  top: 115px;
+  left: 900px;
+  color: blue; 
+}
+
+.filter-girl {
+  position: fixed;
+  top: 115px;
+  left: 1100px;
+  color: blue; 
+}
+

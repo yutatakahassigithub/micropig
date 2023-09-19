@@ -1,0 +1,112 @@
+body {
+    background-color: #FF9933;
+    text-align: center;
+    overflow: auto;
+}
+
+h1 {
+    color: #D6FEE2;
+    font-family: fantasy;
+    font-size: 100px;
+    position: fixed;
+    top: 20px;
+    left: 575px;
+    background-color: brown;
+}
+
+
+h2 {
+    position: fixed;
+    top: 400px;
+    left: 165px;
+    font-size: 20px;
+    color: #FF9933;
+    font-family: fantasy;
+}
+
+
+.p1 { 
+    position: fixed;
+    top: 200px; 
+    left: 500px; 
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.p2 {
+    position: fixed;
+    top: 475px; 
+    left: 450px; 
+    font-size: 20px;
+    font-family: fantasy;
+}
+    
+.p3 {
+    position: absolute;
+    top: 100px; 
+    left: 75px; 
+    font-size: 40px;
+    font-family: fantasy
+}
+
+
+hr {
+  border-top: 2px dashed #FFFFFF;
+  background-color: #FFFFFF;
+  position: fixed;
+  width: 500%;
+  top: 70px;
+  left: 0px;
+}
+
+    
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+
+.pig2 {
+ position: fixed;
+ height: 220px;
+ width: 740px;
+ top:   160px;                     /* 位置指定 */
+ left:  -400px;                    /* 位置指定 */
+ right:  0px;                   /* 位置指定 */
+ margin:  auto;                  /* 中央寄せ */
+ 
+}
+
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+
+.pig3 { 
+ position: fixed;
+ height: 150px;
+ width: 300px;
+ top:  450px;                     /* 位置指定 */                /* 位置指定 */
+ left:  -375px;                    /* 位置指定 */
+ right:  420px;                   /* 位置指定 */
+ margin:  auto;               /* 中央寄せ */
+
+}
+
+
+
+a {
+    color: brown;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    color: orange; 
+}
+
+a:active {
+     color: orange; 
+}
+

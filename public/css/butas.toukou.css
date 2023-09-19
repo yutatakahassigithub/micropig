@@ -1,0 +1,155 @@
+body {
+    background-color: ;
+    text-align: center;
+}
+
+.posting{
+  position: fixed;
+  left: 500px;
+  top:  200px;
+}
+
+.hr {
+    border-top: 2px dashed #FFFFFF;
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 500%;
+    top: 70px;
+    left: 0px;
+  }
+  
+
+.hr1 {
+    background-color: #FF9900;
+    position: fixed;
+    width: 500%;
+    top: 350px;
+    left: 0px;
+  }
+  
+  h1 {
+    color: #D6FEE2;
+    font-family: fantasy;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    background-color: brown; 
+}
+
+    
+.p3 {
+  position: fixed;
+  top: 130px; 
+  left: 75px; 
+  font-size: 40px;
+  font-family: fantasy;
+  line-height: 60px;
+  padding: 0;
+  margin: 0;
+} 
+  
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+.pig1 {
+  position: fixed;
+  height: 200px;
+  width: 500px;
+  top:   150px;                     /* 位置指定 */
+  left:  300px;                    /* 位置指定 */
+  right:  0px;                   /* 位置指定 */
+                 /* 中央寄せ */
+  
+ }
+ 
+ a:hover { 
+  color: orange; 
+}
+
+a:active {
+   color: orange; 
+}
+
+
+
+.p {
+  position: fixed;
+  top: 190px;
+  left: 600px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+.filter-buttons {
+  position: fixed;
+  top: 450px;
+  left: 700px;
+}
+
+h2 {
+  position: fixed;
+  top: 115px;
+  left: 550px;
+}
+
+.filter-buttons {
+  position: fixed;
+  top: 200px;
+  left: 520px;
+  color: blue; 
+}
+
+.filter-man {
+  position: fixed;
+  top: 115px;
+  left: 900px;
+  color: blue; 
+}
+
+.filter-girl {
+  position: fixed;
+  top: 115px;
+  left: 1100px;
+  color: blue; 
+}
+
+.user-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 2%; /* 上下はそのまま、左右のマージンを2%に変更 */
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    /* position: absolute; を削除 */
+    /* top: 40%; も削除 */
+    /* left: 5%; も削除 */
+}
+
+.user-card img {
+    width: 100%;
+    height: 40%;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.user-card h3 {
+    margin-top: 30;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.users-list {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; /* アイテムを中央に配置 */
+    align-items: center; /* 追加: 縦方向も中央に配置 */
+    width: 100%;
+    margin-top: 15%;
+    margin-left: -20%;
+    gap: 20px; /* このプロパティでカード間の間隔を確保 */
+}

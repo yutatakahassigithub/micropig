@@ -1,0 +1,167 @@
+body {
+    background-color: #FF9933;
+    text-align: center
+}
+
+.hr {
+    border-top: 2px dashed #FFFFFF;
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 500%;
+    top: 70px;
+    left: 0px;
+  }
+  
+
+.hr1 {
+    background-color: #FF9900;
+    position: fixed;
+    width: 500%;
+    top: 350px;
+    left: 0px;
+  }
+  
+  h1 {
+    color: #D6FEE2;
+    font-family: fantasy;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    background-color: brown; 
+}
+
+    
+.p3 {
+  position: fixed;
+  top: 130px; 
+  left: 75px; 
+  font-size: 40px;
+  font-family: fantasy;
+  line-height: 60px;
+  padding: 0;
+  margin: 0;
+} 
+  
+a {
+  color: brown;
+  text-decoration: none;
+}
+
+.pig1 {
+  position: fixed;
+  height: 200px;
+  width: 500px;
+  top:   150px;                     /* 位置指定 */
+  left:  300px;                    /* 位置指定 */
+  right:  0px;                   /* 位置指定 */
+                 /* 中央寄せ */
+  
+ }
+ 
+ .pig2 {
+  position: fixed;
+  height: 70px;
+  width: 170px;
+  top:   400px;                     /* 位置指定 */
+  left:  330px;                    /* 位置指定 */
+  right:  0px;                   /* 位置指定 */
+                 /* 中央寄せ */
+ }
+ 
+ 
+ a:hover { 
+  color: orange; 
+}
+
+a:active {
+   color: orange; 
+}
+
+
+.re5ct{
+	width: 300px;
+	height: 450px;
+	border: 1px solid;
+    position:fixed;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-clip: content-box;
+    background-image: url('背景画像のURL');
+    padding: 20px; /* 余白を設定 */
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.pp1 {
+  position: fixed;
+  top: 200px;
+  left: 600px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+.pp3 {
+  position: fixed;
+  top: 350px;
+  left: 600px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+
+.p {
+  position: fixed;
+  top: 450px;
+  left: 520px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+.pp2 {
+  position: fixed;
+  top: 450px;
+  left: 960px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+
+.roko1 {
+  position: fixed;
+  top: 450px;
+  left: 1150px;
+  font-size: 20px;
+  font-family: fantasy;
+  background-color: red;
+}
+
+.roko2 {
+  position: fixed;
+  top: 550px;
+  left: 1150px;
+  font-size: 20px;
+  font-family: fantasy;
+  background-color: red;
+}
+
+
+.filter-buttons {
+  position: fixed;
+  top: 450px;
+  left: 700px;
+}
+
+h2 {
+  position: fixed;
+  top: 375px;
+  left: 60px;
+}
+
+.filter-buttons {
+  position: fixed;
+  top: 420px;
+  left: 60px;
+  color: blue; 
+}
+

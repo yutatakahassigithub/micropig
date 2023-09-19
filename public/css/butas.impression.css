@@ -1,0 +1,86 @@
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: sans-serif; /* 一般的なサンセリフをデフォルトに */
+}
+
+  
+  h1 {
+    color: #D6FEE2;
+    font-family: fantasy;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    background-color: brown; 
+}
+/* ... その他のスタイル（特定の要素の絶対位置を避ける）... */
+
+/* ニュースセクションのスタイル */
+.news {
+    padding: 80px 0;
+    width: 100%;
+    margin:  auto; /* 中央寄せ */
+}
+
+
+.inner {
+    max-width: 1100px;
+    margin: 0 auto; 
+    background-color: #fff;
+    padding: 20px 40px 20px 60px; /* 左のパディングを増やして少し左に寄せる */
+}
+
+.sub_ttl {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center; /* 中央寄せ */
+}
+
+.news_list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.news_list_item {
+    padding: 25px 0;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.news_list_item a {
+    display: flex;
+    justify-content: space-between; /* コンテンツ間のスペースを均等に分配 */
+    align-items: center;
+    padding: 0 30px;
+}
+
+.news_list_date {
+    font-size: 15px;
+}
+
+.news_item {
+    background: #F6C6A2;
+    border-radius: 10px;
+    width: 6em;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.arrow {
+    width: 15px;
+    height: 1px;
+    background: #707070;
+}
+
+.arrow::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 1px;
+    background: #707070;
+    transform: rotate(45deg);
+    margin-left: 10px; /* 矢印の位置を調整 */
+}
+
+/* ... その他のスタイル ... */
+
