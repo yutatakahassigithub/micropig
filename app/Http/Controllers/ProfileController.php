@@ -12,6 +12,8 @@ use App\Models\User;
 use Illuminate\Support\Facades\Storage;
 use App\Models\Comment;
 
+
+
 class ProfileController extends Controller
 {
     /**
@@ -19,6 +21,7 @@ class ProfileController extends Controller
      */
     public function edit(Request $request): View
     {
+        
         return view('profile.edit', [
             'user' => $request->user(),
         ]);

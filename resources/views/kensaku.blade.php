@@ -46,13 +46,13 @@
     
 <div class="filter-man">
     <!-- ログインしている場合は、Auth::id() を使用し、そうでない場合は適切な代替値または動作を提供します -->
-    <a href="{{ route('rokomimiru', ['userId' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを閲覧する<br>
-        ページへ移動する！</a>
+   <a href="{{ route('rokomimiru', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを閲覧する<br>
+    ページへ移動する！</a>
+
 </div>
 
 <div class="filter-girl">
-    <a href="{{ route('rokomitoukou', ['userId' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを投稿する<br>
-        ページへ移動する！</a>
+ <a href="{{ route('rokomitoukou.create', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを投稿する<br>ページへ移動する！</a>
 </div>
 
     </div>  

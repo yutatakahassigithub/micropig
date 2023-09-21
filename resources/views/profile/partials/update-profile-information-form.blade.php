@@ -1,5 +1,3 @@
-
-
 <section>
     <nav class="mb-4">
         <a href="{{ url('/dashboard') }}" class="btn">Top</a>

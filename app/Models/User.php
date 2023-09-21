@@ -8,7 +8,6 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
@@ -48,14 +47,14 @@ class User extends Authenticatable
     ];
     
     // User.php（モデル）
-    public function commentsFromUser()
-    {
-        return $this->hasMany(Comment::class, 'from_user_id');
-    }
-    
-    public function commentsToUser()
-    {
-        return $this->hasMany(Comment::class, 'to_user_id');
-    }
+public function commentsFromUser()
+{
+    return $this->hasMany(Comment::class, 'from_user_id');
+}
+
+public function commentsToUser()
+{
+    return $this->hasMany(Comment::class, 'to_user_id');
+}
 
 }

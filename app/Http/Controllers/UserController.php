@@ -13,7 +13,13 @@ class UserController extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function show($id) {
-        $profile = User::find($id); 
-        return view('users.show', ['profile' => $profile]);
+    $user = User::find($id);
+    
+    if (!$user) {
+        return redirect('/dashboard')->with('error', 'User not found.');
     }
+
+    return view('users.show', ['user' => $user]);
+}
+
 }
