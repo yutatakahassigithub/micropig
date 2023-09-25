@@ -33,7 +33,7 @@ body {
     font-size: 40px;
     position: absolute;
     top: 20px;
-    left: 600px;
+    left: 650px;
     background-color: brown; 
 }
 
@@ -154,3 +154,7 @@ h2 {
     gap: 20px; /* このプロパティでカード間の間隔を確保 */
 }
 
+.comment-form-container {
+    margin-top: 200px; /* この値を調整して、フォームの位置を変更します */
+    margin-left: -450px;
+}

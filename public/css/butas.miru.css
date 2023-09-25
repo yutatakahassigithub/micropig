@@ -40,7 +40,7 @@ body {
     font-size: 40px;
     position: absolute;
     top: 20px;
-    left: 600px;
+    left: 650px;
     background-color: brown; 
 }
 
@@ -99,7 +99,7 @@ a:active {
 h2 {
   position: fixed;
   top: 115px;
-  left: 600px;
+  left: 670px;
 }
 
 .filter-buttons {

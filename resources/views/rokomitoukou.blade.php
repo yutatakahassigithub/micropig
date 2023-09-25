@@ -4,26 +4,33 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="{{ asset('css/butas.toukou.css') }}"> 
-        <title>口コミ投稿フォーム</title>
+        <title>Mini Pig Matching toukou</title>
     </head>
     <body>
         <x-app-layout>
-            <x-slot name="header">
-                <nav class="flex justify-between">
-                    <a href="{{ url('/dashboard') }}" class="btn">Top</a>
-                    <a href="{{ url('/impression') }}" class="btn">impression</a> 
-                    <a href="{{ url('/Matching') }}" class="btn">Matching</a>
-                </nav>
-            </x-slot>
-        </x-app-layout>
+    <x-slot name="header">
+        <nav class="flex justify-between">
+            <a href="{{ url('/dashboard') }}" class="btn">Top　</a>
+            <a href="{{ url('/impression') }}" class="btn">impression</a> 
+            <a href="{{ url('/Matching') }}" class="btn">　Matching</a>
+        </nav>
+    </x-slot>
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+            </div>
+        </div>
+    </div>
+    </x-app-layout>
 
-        <h1>MICRO PIG SERVICE TOP</h1>
+        <h1>Mini Pig Matching toukou</h1>
         @if(isset($error_message) && $error_message)
         <p>{{ $error_message }}</p>
         @else
         
         @if(isset($user) && $user)
-        <form action="{{ route('rokomi.comments.store', ['user_id' => $user->id]) }}" method="POST">
+        <div class="comment-form-container">
+    <form action="{{ route('rokomi.comments.store', ['user_id' => $user->id]) }}" method="POST">
         @csrf
         <!-- コメントの入力 -->
         <div>
@@ -42,6 +49,9 @@
                 <button type="submit">コメントを投稿</button>
             </div>
         </form>
+        
+         </form>
+</div>
         
         <div>
         @else

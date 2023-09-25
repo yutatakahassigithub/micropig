@@ -1,33 +1,18 @@
 body {
-    background-color: ;
+    background-color: bl;
     text-align: center;
 }
 
-.hr {
-    border-top: 2px dashed #FFFFFF;
-    background-color: #FFFFFF;
-    position: fixed;
-    width: 500%;
-    top: 70px;
-    left: 0px;
-  }
-  
 
-.hr1 {
-    background-color: #FF9900;
-    position: fixed;
-    width: 500%;
-    top: 350px;
-    left: 0px;
-  }
-  
+
+
   h1 {
     color: #D6FEE2;
     font-family: fantasy;
     font-size: 40px;
     position: absolute;
     top: 20px;
-    left: 600px;
+    left: 710px;
     background-color: brown; 
 }
 
@@ -84,40 +69,43 @@ a:active {
 }
 
 h2 {
-  position: fixed;
+  position: relative;
   top: 115px;
-  left: 550px;
+  left: -920px;
 }
 
 .filter-buttons {
   position: fixed;
-  top: 200px;
+  top: 100px;
   left: 520px;
   color: blue; 
 }
 
 .filter-man {
-  position: fixed;
-  top: 115px;
-  left: 900px;
+  position: relative;
+  top: 200px;
+  left: -1000px;
   color: blue; 
+  
 }
 
 .filter-girl {
-  position: fixed;
-  top: 115px;
-  left: 1100px;
+  position: relative;
+  top: 350px;
+  left: -1090px;
   color: blue; 
 }
 
 .user-card {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 10px;
+    padding: 0px;
     margin: 15px 2%; /* 上下はそのまま、左右のマージンを2%に変更 */
     max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    margin-left: 0px;
+    margin-top: 0px;
     /* position: absolute; を削除 */
     /* top: 40%; も削除 */
     /* left: 5%; も削除 */
@@ -129,6 +117,7 @@ h2 {
     border-radius: 4px;
     margin-top: 40px;
     margin-bottom: 10px;
+    margin-left: 0px;
 }
 
 .user-card h3 {
@@ -141,9 +130,9 @@ h2 {
     display: flex; 
     flex-wrap: wrap;
     justify-content: center; /* アイテムを中央に配置 */
-    align-items: center; /* 追加: 縦方向も中央に配置 */
+    align-items: ceniter; /* 追加: 縦方向も中央に配置 */
     width: 100%;
-    margin-top: 15%;
-    margin-left: -20%;
+    margin-top: 7%;
+    margin-left: -60%;
     gap: 20px; /* このプロパティでカード間の間隔を確保 */
 }

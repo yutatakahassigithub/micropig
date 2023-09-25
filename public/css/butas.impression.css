@@ -1,28 +1,55 @@
+/* 一般的なスタイル */
 body {
     background-color: #FFFFFF;
     text-align: center;
     font-family: sans-serif; /* 一般的なサンセリフをデフォルトに */
 }
 
-  
-  h1 {
+.btn{
+    color: block;
+    text-decoration: none; 
+}
+
+.btn:hover, .btn:active { 
+    color: orange; 
+}
+
+/* タイトルスタイル */
+h1 {
     color: #D6FEE2;
     font-family: fantasy;
-    font-size: 40px;
-    position: absolute;
+    font-size: 100px;
+    position: fixed;
     top: 20px;
-    left: 600px;
-    background-color: brown; 
+    left: 740px;
+    background-color: brown;
 }
-/* ... その他のスタイル（特定の要素の絶対位置を避ける）... */
+
+/* ... その他のスタイル ... */
+.header {
+    z-index: 1000;
+
+}
+
+.header {
+    z-index: 1000;
+
+}
+
+.news {
+    margin-left: 0;
+}
+
 
 /* ニュースセクションのスタイル */
 .news {
-    padding: 80px 0;
-    width: 100%;
-    margin:  auto; /* 中央寄せ */
+    padding: 90px 0;
+    width: 70;
+    margin:  auto; 
+    position: fixed;
+  
+     margin-left: 430px;
 }
-
 
 .inner {
     max-width: 1100px;
@@ -81,6 +108,4 @@ body {
     transform: rotate(45deg);
     margin-left: 10px; /* 矢印の位置を調整 */
 }
-
-/* ... その他のスタイル ... */
 

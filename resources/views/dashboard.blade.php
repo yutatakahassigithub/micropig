@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="{{ asset('css/butas.1.css') }}">
-  <title>Mini Pig serch</title>
+  <title>Mini Pig service TOP</title>
 </head>
 <body>
     <x-app-layout>
@@ -29,12 +29,12 @@
         <p>Welcome, Guest!</p>
     @endif
  
-    <h1>MICRO PIG SERVICE TOP</h1>
+    <h1>Mini Pig SERVICE TOP</h1>
     <hr width=400 size=3>
     <h2>🐷マイクロブタとは？</h2>
     <p class="p1">・このサイトではマイクロブタに関する情報、マイクロブタに関するイベント、<br>
     実際の飼い主さんとつながれるサービスなどを提供している。<br>
-    マイクロブタに興味のある人や実際に買おうかなと思っている人<br>
+    マイクロブタに興味のある人や実際に飼いたいなと思っている人<br>
     にとっておすすめなＷＥＢサービスです。</p1>
     <script src="../jss/butas.js"></script>
     <div class="pig2">

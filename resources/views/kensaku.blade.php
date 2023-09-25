@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('css/butas.kensaku.css') }}"> 
-    <title>butas_matching</title>
+    <title>Mini Pig Matching kensaku</title>
 </head>
 <body>
-    <x-app-layout>
-        <x-slot name="header">
-            <nav class="flex justify-between">
-                <a href="{{ url('/dashboard') }}" class="btn">Top </a>
-                <a href="{{ url('/impression') }}" class="btn"> impression</a> 
-                <a href="{{ url('/Matching') }}" class="btn"> Matching</a>
-            </nav>
-        </x-slot>
+     <x-app-layout>
+    <x-slot name="header">
+        <nav class="flex justify-between">
+           <a href="{{ url('/dashboard') }}" class="btn">Top　</a>
+            <a href="{{ url('/impression') }}" class="btn">impression　</a> 
+            <a href="{{ url('/Matching') }}" class="btn">Matching</a>
+        </nav>
+    </x-slot>
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+            </div>
+        </div>
+    </div>
     </x-app-layout>
-    <h1>MAICRO PIG SERVICE Match</h1>
+    <h1>Mini Pig Matching kensaku</h1>
     <hr class="hr" width=400 size=3>
     
     <hr class="hr1" width=400 size=3>
    <script src="{{ asset('css/butas_match.js') }}"></script>
 
-    <h2>飼い主さんを探す！連絡が取れます！</h2>
+    <h2>飼い主さんを探す！連絡が取れます！ぜひ連絡してみてください!</h2>
       <div class="filter-buttons">
         <button onclick="filterOwners('east')"></button>
         <button onclick="filterOwners('west')"></button>

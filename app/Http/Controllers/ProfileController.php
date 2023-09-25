@@ -128,6 +128,8 @@ class ProfileController extends Controller
 
         return view('rokomimiru', ['userId' => $userId, 'profile' => $profile]);
     }
+    
+    
 
    
 }

@@ -12,8 +12,8 @@ use Illuminate\Http\Request;
     
      public function index()
     {
-    $comments = Comment::with('fromUser', 'toUser')->get();
-    return view('rokomimiru', ['comments' => $comments]);
+        $comments = Comment::with('fromUser', 'toUser')->get();
+        return view('rokomimiru', ['comments' => $comments]);
     }
 
      
@@ -27,9 +27,9 @@ use Illuminate\Http\Request;
         return redirect()->back()->with('error', '権限がありません');
     }
 
-    $comment->delete();
-    
-    return redirect()->back()->with('success', 'コメントが削除されました！');
+        $comment->delete();
+        
+        return redirect()->back()->with('success', 'コメントが削除されました！');
     }
 
     
@@ -50,10 +50,10 @@ use Illuminate\Http\Request;
         $fromUserId = auth()->check() ? auth()->id() : null;
     
         Comment::create([
-    'comment' => $request->comment,
-    'evaluation' => $request->evaluation,
-   'from_user_id' => Auth::id(),
-    'to_user_id' => $user_id
+        'comment' => $request->comment,
+        'evaluation' => $request->evaluation,
+       'from_user_id' => Auth::id(),
+        'to_user_id' => $user_id
 ]);
 
         return redirect()->back()->with('success', 'コメントが投稿されました！');

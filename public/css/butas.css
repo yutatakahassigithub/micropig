@@ -1,54 +1,71 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: #FF9933;
-    text-align: center
+    margin-bottom: -0px;
 }
+
+
 
 h1 {
     color: #D6FEE2;
     font-family: fantasy;
     font-size: 40px;
-    position: fixed;
-    top: -10px;
-    left: 20px;
+    position: relative;
+    top: -80px;
+    left: 50px;
     background-color: brown;
+    display: inline-block;
 }
 
 
 h2 {
-    position: fixed;
-    top: 400px;
-    left: 325px;
+    position: relative;
+    top: 180px;
+    left: 185px;
     font-size: 20px;
     color: #D6FEE2;
     font-family: fantasy;
 }
 
 
-.p1 { 
-    position: fixed;
-    top: 150px; 
-    left: 750px; 
+h4 {
+    position: relative;
+    top: -200px;
+    left: 550px;
     font-size: 20px;
+    color: #D6FEE2;
     font-family: fantasy;
 }
 
-.p2 {
-    position: fixed;
-    top: 455px; 
+
+
+
+
+.p1 { 
+    position: relative;
+    top: -120px; 
     left: 600px; 
     font-size: 20px;
     font-family: fantasy;
+
+}
+
+.p2 {
+    position: relative;
+    top: -400px; 
+    left: 600px; 
+    font-size: 20px;
+    font-family: fantasy;
+ 
 }
     
-
-
-
 hr {
   border-top: 2px dashed #FFFFFF;
   background-color: #FFFFFF;
-  position: fixed;
-  width: 500%;
-  top: 70px;
+  position: relative;
+  width: 100%;
+  top: -100px;
   left: 0px;
 }
 
@@ -59,11 +76,11 @@ img {
 }
 
 .pig2 {
- position: fixed;
- height: 310px;
- width: 860px;
- top:   100px;                     /* 位置指定 */
- left:  -500px;                    /* 位置指定 */
+ position: relative;
+ height: 260px;
+ width: 810px;
+ top:   -325px;                     /* 位置指定 */
+ left:  -200px;                    /* 位置指定 */
  right:  0px;                   /* 位置指定 */
  margin:  auto;                  /* 中央寄せ */
  
@@ -75,18 +92,37 @@ img {
 }
 
 .pig3 { 
- position: fixed;
+ position: relative;
  height: 150px;
  width: 300px;
- top:  460px;                     /* 位置指定 */                /* 位置指定 */
- left:  -100px;                    /* 位置指定 */
+ top:  -250px;                     /* 位置指定 */                /* 位置指定 */
+ left:  -350px;                    /* 位置指定 */
  right:  420px;                   /* 位置指定 */
  margin:  auto;               /* 中央寄せ */
 
+
 }
 
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+
+.pig4 { 
+ position: relative;
+ height: 150px;
+ width: 300px;
+ top:  -250px;                     /* 位置指定 */                /* 位置指定 */
+ left:  0px;                    /* 位置指定 */
+ right:  420px;                   /* 位置指定 */
+ margin:  auto;               /* 中央寄せ */
+ margin-bottom: 0px;
+
+}
+
+
 .login-link{
-    position: fixed;
+    position: relative;
     top: 20px;
     left: 100px;
 }
@@ -96,19 +132,42 @@ img {
 a {
     color: brown;
     font-size: 20px;
-    position: fixed
+
     left: 100px;
     top: 20px
 }
 
-.dashboard{
+
+.hutunohito{
     font-size:  20px;
+    position: relative;
+    left: 600px;
 }
 
-.login{
-    font-size: 20px;
+
+.hutunohito1{
+    font-size:  20px;
+    position: relative;
+    left: 600px;
+    top: 0px;
 }
 
-.register{
-    font-size: 20px;
+
+.hutunohito2{
+    font-size:  20px;
+    position: relative;
+    left: 600px;
+    top: 30px;
 }
+
+
+.hutunohito3{
+    font-size:  20px;
+    position: relative;
+    left: 800px;
+    top: 0px;
+}
+.wrap {
+     overflow-x:  hidden;
+     overflow-y:  hidden;
+ }

@@ -1,8 +1,8 @@
 <section>
     <nav class="mb-4">
-        <a href="{{ url('/dashboard') }}" class="btn">Top</a>
+        <a href="{{ url('/dashboard') }}" class="btn">Top　</a>
         <a href="{{ url('/impression') }}" class="btn">impression</a>
-        <a href="{{ url('/Matching') }}" class="btn">Matching</a>
+        <a href="{{ url('/Matching') }}" class="btn">　Matching</a>
     </nav>
     
     <header>
