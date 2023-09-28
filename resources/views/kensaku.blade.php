@@ -28,7 +28,7 @@
     <hr class="hr1" width=400 size=3>
    <script src="{{ asset('css/butas_match.js') }}"></script>
 
-    <h2>飼い主さんを探す！連絡が取れます！ぜひ連絡してみてください!</h2>
+    <h2>飼い主さんを探す！連絡が取れます！<br>ぜひ連絡してみてください!</h2>
       <div class="filter-buttons">
         <button onclick="filterOwners('east')"></button>
         <button onclick="filterOwners('west')"></button>
@@ -51,14 +51,12 @@
     </div>
     
 <div class="filter-man">
-    <!-- ログインしている場合は、Auth::id() を使用し、そうでない場合は適切な代替値または動作を提供します -->
    <a href="{{ route('rokomimiru', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを閲覧する<br>
     ページへ移動する！</a>
-
 </div>
 
 <div class="filter-girl">
- <a href="{{ route('rokomitoukou.create', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを投稿する<br>ページへ移動する！</a>
+    <a href="{{ route('rokomitoukou.create', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを投稿する<br>ページへ移動する！</a>
 </div>
 
     </div>  

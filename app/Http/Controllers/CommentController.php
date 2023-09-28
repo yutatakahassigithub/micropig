@@ -15,6 +15,8 @@ class CommentController extends Controller
             return view('rokomitoukou', ['error_message' => 'ゲスト同士の口コミ投稿サイトはまだできてません。
             しばらくお待ちください']); 
         }
+        
+        
 
         $user = User::find($user_id);
         if (!$user) {
@@ -46,5 +48,3 @@ class CommentController extends Controller
         return redirect()->route('rokomi.index', $request->route('user_id'))->with('message', 'コメントを投稿しました');
     }
 }
-
-

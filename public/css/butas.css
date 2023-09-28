@@ -5,8 +5,6 @@ body {
     margin-bottom: -0px;
 }
 
-
-
 h1 {
     color: #D6FEE2;
     font-family: fantasy;
@@ -32,15 +30,21 @@ h2 {
 h4 {
     position: relative;
     top: -200px;
-    left: 550px;
+    left: 500px;
     font-size: 20px;
     color: #D6FEE2;
     font-family: fantasy;
 }
 
 
-
-
+h5 {
+    position: relative;
+    top: -300px;
+    left: 490px;
+    font-size: 20px;
+    color: #D6FEE2;
+    font-family: fantasy;
+}
 
 .p1 { 
     position: relative;
@@ -106,6 +110,8 @@ img {
 img {
  max-width: 100%;
  max-height: 100%;
+    background-color: #FFFFFF;
+     padding: 10px;
 }
 
 .pig4 { 
@@ -117,7 +123,7 @@ img {
  right:  420px;                   /* 位置指定 */
  margin:  auto;               /* 中央寄せ */
  margin-bottom: 0px;
-
+ 
 }
 
 

@@ -102,59 +102,28 @@ h2 {
   color: blue; 
 }
 
+.comment-form-container {
+    position: relative;  /* この行を追加 */
+    top: 0;             /* この行を追加 */
+    left: 0;            /* この行を追加 */
+    margin-top: 200px;
+    margin-left: -435px; /* この値はかなり大きいので、必要に応じて調整するか、削除することも考慮してください。 */
+}
+
 .filter-man {
   position: fixed;
-  top: 115px;
-  left: 900px;
-  color: blue; 
+  top: 200px;  /* この位置を調節する */
+  left: 50px; /* この位置を調節する */
+  color: blue;
+  background-color: #FFFFFF;
+  padding: 10px;
 }
 
 .filter-girl {
   position: fixed;
-  top: 115px;
-  left: 1100px;
+  top: 300px;  /* この位置を調節する */
+  left: 50px; /* この位置を調節する */
   color: blue; 
-}
-
-.user-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 15px 2%; /* 上下はそのまま、左右のマージンを2%に変更 */
-    max-width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    /* position: absolute; を削除 */
-    /* top: 40%; も削除 */
-    /* left: 5%; も削除 */
-}
-
-.user-card img {
-    width: 100%;
-    height: 40%;
-    border-radius: 4px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-
-.user-card h3 {
-    margin-top: 30;
-    margin-bottom: 5px;
-    font-size: 20px;
-}
-
-.users-list {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: center; /* アイテムを中央に配置 */
-    align-items: center; /* 追加: 縦方向も中央に配置 */
-    width: 100%;
-    margin-top: 15%;
-    margin-left: -20%;
-    gap: 20px; /* このプロパティでカード間の間隔を確保 */
-}
-
-.comment-form-container {
-    margin-top: 200px; /* この値を調整して、フォームの位置を変更します */
-    margin-left: -450px;
+  background-color: #FFFFFF;
+  padding: 10px;
 }

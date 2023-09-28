@@ -7,7 +7,7 @@
         <title>Mini Pig service</title>
     </head>
 <body>
-     <div class="wrap">
+    <div class="wrap">
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
@@ -32,8 +32,7 @@
     マイクロブタに関するイベント、実際の飼い主さんと<br>
     つながれるサービスなどを提供しています。<br>
     マイクロブタに興味のある人や実際に飼っている人<br>
-    にとっておすすめなＷＥＢサービスです。
-    <script src="../jss/butas.js"></script>
+    にとっておすすめなＷＥＢサービスです。</p1>
     <div class="pig2">
      <img src="{{ asset('css/26551396_s.jpg') }}" alt="pig2 Logo" />
     </div>
@@ -48,7 +47,8 @@
     <div class="pig4">
       <img src="{{ asset('css/3631803_s.jpg') }}" alt="pig4 Logo" />
     </div>
-     <h4>🐽よろしくね！🐽</h4>
+     <h4>🐽🐽🐽よろしくね！🐽🐽🐽</h4>
+     <h5>🐖🐖🐖🐖🐖🐖🐖🐖🐖🐖🐖</h5>
     </div>
 </body>
 </html>

@@ -24,13 +24,22 @@
     </x-app-layout>
 
         <h1>Mini Pig Matching toukou</h1>
+        <div class="filter-man">
+           <a href="{{ route('rokomimiru', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを閲覧する<br>
+            ページへ移動する！</a>
+        </div>
+
+        <div class="filter-girl">
+            <a href="{{ route('rokomitoukou.create', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを投稿する<br>ページへ移動する！</a>
+        </div>
+
         @if(isset($error_message) && $error_message)
         <p>{{ $error_message }}</p>
         @else
         
         @if(isset($user) && $user)
         <div class="comment-form-container">
-    <form action="{{ route('rokomi.comments.store', ['user_id' => $user->id]) }}" method="POST">
+        <form action="{{ route('rokomi.comments.store', ['user_id' => $user->id]) }}" method="POST">
         @csrf
         <!-- コメントの入力 -->
         <div>
@@ -52,15 +61,12 @@
         
          </form>
 </div>
-        
         <div>
         @else
             口コミ機能はまだ使えません。
         @endif
         </div>
-         
        @endif     
     </div>
-
 </body>
 </html>

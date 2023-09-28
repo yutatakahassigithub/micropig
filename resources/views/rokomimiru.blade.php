@@ -48,15 +48,18 @@
     @endif
 </section>
 
-<!-- すべてのユーザーに表示するリンクは不要になるので、削除します -->
-
-<!-- ... -->
-
-
-
     <h1>Mini Pig Matching eturan</h1>
     <hr class="hr" width=400 size=3>
     <hr class="hr1" width=400 size=3>
+    
+    <div class="filter-man">
+        <a href="{{ route('rokomimiru', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを閲覧する<br>
+    ページへ移動する！</a>
+    </div>
+
+    <div class="filter-girl">
+        <a href="{{ route('rokomitoukou.create', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを投稿する<br>ページへ移動する！</a>
+    </div>
 
 
     <h2></h2>
