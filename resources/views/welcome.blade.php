@@ -24,9 +24,8 @@
             @endif
     <div class="hutunohito"> 
        <a href="{{ route('dashboard') }}" class="btn">飼い主じゃない人はこちらから！(ゲストさん）</a>
-     </div>  
+    </div>  
     <h1>Mini Pig service</h1>
-    <hr width=400 size=3>
     <h2>🐷マイクロブタとは？</h2>
     <p class="p1">・このサイトではマイクロブタに関する情報、<br>
     マイクロブタに関するイベント、実際の飼い主さんと<br>
@@ -43,7 +42,6 @@
     可愛らしい姿をしています。大人の体重は通常20kg未満であるため、<br>
     新世代ペットとして注目されています。マイクロブタは賢く、<br>
     綺麗好きで人に懐きやすい性格を持っています。</p2>
-    <div class="rect"></div>   
     <div class="pig4">
       <img src="{{ asset('css/3631803_s.jpg') }}" alt="pig4 Logo" />
     </div>

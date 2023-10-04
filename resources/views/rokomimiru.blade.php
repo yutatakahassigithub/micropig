@@ -26,14 +26,12 @@
     </x-app-layout>
 <section>
     <h2>飼い主同士の口コミ一覧</h2>
-
     @if($comments)
         @foreach($comments as $comment)
             <div class="post">
                 <p>コメント: {{ $comment->comment ?? 'コメントなし' }}</p>
                 <p>評価: {{ $comment->evaluation ?? '評価なし' }}</p>
                 <p>By: {{ $comment->fromUser->name ?? 'ゲスト' }}</p>
-                
                 @if(Auth::id() === $comment->from_user_id)
                     <form action="{{ route('rokomi.comments.destroy', ['id' => $comment->id]) }}" method="POST">
                         @csrf
@@ -47,27 +45,15 @@
         <p>ゲストの口コミは見れません、現在は飼い主さん同士の口コミしか見れません。</p>
     @endif
 </section>
-
     <h1>Mini Pig Matching eturan</h1>
-    <hr class="hr" width=400 size=3>
-    <hr class="hr1" width=400 size=3>
-    
     <div class="filter-man">
         <a href="{{ route('rokomimiru', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを閲覧する<br>
     ページへ移動する！</a>
     </div>
-
     <div class="filter-girl">
         <a href="{{ route('rokomitoukou.create', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを投稿する<br>ページへ移動する！</a>
     </div>
-
-
     <h2></h2>
-    <div class="filter-buttons">
-        <button onclick="filterOwners('kanto')">　　</button>
-        <button onclick="filterOwners('kansai')"> 　　</button>
-        <button onclick="filterOwners('island')"> 　　</button>
-    </div>
     <div class="rect"></div>
 </body>
 

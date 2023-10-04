@@ -11,17 +11,17 @@ body {
 }
 
 .btn:hover, .btn:active { 
-    color: orange; 
+    color: black; 
 }
 
 /* タイトルスタイル */
 h1 {
     color: #D6FEE2;
     font-family: fantasy;
-    font-size: 100px;
+    font-size: 20px;
     position: fixed;
-    top: 20px;
-    left: 740px;
+    top: 0px;
+    left: 100px;
     background-color: brown;
 }
 
@@ -43,20 +43,19 @@ h1 {
 
 /* ニュースセクションのスタイル */
 .news {
-    padding: 90px 0;
-    width: 70;
-    margin:  auto; 
-    position: fixed;
-  
-     margin-left: 430px;
+    padding: 60px 0; /* 上下のパディングを90pxから60pxに変更 */
+    width: 70%; /* 幅の指定が70となっていますが、%やpxを指定するか確認してください */
+    margin: auto; 
+    margin-left: 250px;
 }
 
 .inner {
-    max-width: 1100px;
+    max-width: 800px; /* コンテンツエリアの最大幅を調整 */
     margin: 0 auto; 
     background-color: #fff;
-    padding: 20px 40px 20px 60px; /* 左のパディングを増やして少し左に寄せる */
+    padding: 15px 30px 15px 45px; /* パディングを調整 */
 }
+
 
 .sub_ttl {
     font-size: 30px;

@@ -52,15 +52,13 @@
             <label for="evaluation">評価 (1-5):</label>
             <input type="number" name="evaluation" id="evaluation" min="1" max="5" required>
         </div>
-    
         <!-- 送信ボタン -->
             <div>
                 <button type="submit">コメントを投稿</button>
             </div>
         </form>
-        
          </form>
-</div>
+        </div>
         <div>
         @else
             口コミ機能はまだ使えません。

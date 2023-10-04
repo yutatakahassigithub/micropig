@@ -24,9 +24,7 @@
     </div>
     </x-app-layout>
     <h1>Mini Pig  impression</h1>
-    <hr width=400 size=3>
     <p class="p1"></p>
-  
     <p class="p2"></p2>
       <section class="news">
         <div class="inner">
