@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Comment;
 use App\Models\User;
-use Illuminate\Support\Facades\Auth; // このラインを追加
+use Illuminate\Support\Facades\Auth; 
 
 class CommentController extends Controller
 {

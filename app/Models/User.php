@@ -45,16 +45,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+        
+    public function commentsFromUser()
+    {
+        return $this->hasMany(Comment::class, 'from_user_id');
+    }
     
-    // User.php（モデル）
-public function commentsFromUser()
-{
-    return $this->hasMany(Comment::class, 'from_user_id');
-}
-
-public function commentsToUser()
-{
-    return $this->hasMany(Comment::class, 'to_user_id');
-}
+    public function commentsToUser()
+    {
+        return $this->hasMany(Comment::class, 'to_user_id');
+    }
 
 }

@@ -32,30 +32,23 @@ h2 {
 } 
   
 a {
-  color: brown;
-  text-decoration: none;
+    color: brown;
+    text-decoration: none; 
+}
+
+a:hover, a:active { 
+    color: black; 
 }
 
 .pig1 {
   position: fixed;
   height: 200px;
   width: 500px;
-  top:   150px;                     /* 位置指定 */
-  left:  300px;                    /* 位置指定 */
-  right:  0px;                   /* 位置指定 */
-                 /* 中央寄せ */
+  top:   150px;                   
+  left:  300px;                   
+  right:  0px;                   
   
  }
- 
- a:hover { 
-  color: orange; 
-}
-
-a:active {
-   color: orange; 
-}
-
-
 
 .p {
   position: fixed;
@@ -80,8 +73,8 @@ a:active {
 
 .filter-man {
   position: fixed;
-  top: 300px;  /* この位置を調節する */
-  left: 50px; /* この位置を調節する */
+  top: 300px;  
+  left: 50px; 
   color: blue; 
   background-color: #FFFFFF;
   padding: 10px;
@@ -89,8 +82,8 @@ a:active {
 
 .filter-girl {
   position: fixed;
-  top: 400px;  /* この位置を調節する */
-  left: 50px; /* この位置を調節する */
+  top: 400px;  
+  left: 50px; 
   color: blue; 
   background-color: #FFFFFF;
   padding: 10px;
@@ -100,15 +93,14 @@ a:active {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 0px;
-    margin: 15px 2%; /* 上下はそのまま、左右のマージンを2%に変更 */
+    margin: 15px 2%; 
     max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     margin-left: 0px;
     margin-top: -100px;
-    /* position: absolute; を削除 */
-    /* top: 40%; も削除 */
-    /* left: 5%; も削除 */
+    
+    
 }
 
 .user-card img {
@@ -130,7 +122,6 @@ a:active {
     display: flex; 
     flex-wrap: wrap;
     justify-content: center; /* アイテムを中央に配置 */
-    align-items: ceniter; /* 追加: 縦方向も中央に配置 */
     width: 100%;
     margin-top: 10%;
     margin-left: 0%;

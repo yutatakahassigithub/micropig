@@ -2,17 +2,18 @@
 body {
     background-color: #FF9933;
     text-align: center;
-    font-family: sans-serif; /
+    font-family: sans-serif; 
 }
 
-.btn{
-    color: block;
+a {
+    color: brown;
     text-decoration: none; 
 }
 
-.btn:hover, .btn:active { 
+a:hover, a:active { 
     color: black; 
 }
+
 
 /* タイトルスタイル */
 h1 {
@@ -43,17 +44,17 @@ h1 {
 
 /* ニュースセクションのスタイル */
 .news {
-    padding: 60px 0; /* 上下のパディングを90pxから60pxに変更 */
-    width: 70%; /* 幅の指定が70となっていますが、%やpxを指定するか確認してください */
+    padding: 60px 0; 
+    width: 70%; 
     margin: auto; 
     margin-left: 250px;
 }
 
 .inner {
-    max-width: 800px; /* コンテンツエリアの最大幅を調整 */
+    max-width: 800px; 
     margin: 0 auto; 
     background-color: #fff;
-    padding: 15px 30px 15px 45px; /* パディングを調整 */
+    padding: 15px 30px 15px 45px; 
 }
 
 
@@ -75,7 +76,7 @@ h1 {
 
 .news_list_item a {
     display: flex;
-    justify-content: space-between; /* コンテンツ間のスペースを均等に分配 */
+    justify-content: space-between; 
     align-items: center;
     padding: 0 30px;
 }

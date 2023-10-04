@@ -26,22 +26,17 @@ use Illuminate\Http\Request;
     if (Auth::id() !== $comment->from_user_id) {
         return redirect()->back()->with('error', '権限がありません');
     }
-
         $comment->delete();
-        
         return redirect()->back()->with('success', 'コメントが削除されました！');
     }
 
+    public function __construct()
+    {
+    $this->middleware('auth')->except('index');
+    }
     
-        // ... 他のメソッド
-    
-        public function __construct()
-        {
-        $this->middleware('auth')->except('index');
-        }
-    
-        public function store(Request $request, $user_id) 
-         {
+    public function store(Request $request, $user_id) 
+    {
         $request->validate([
             'comment' => 'required|string',
             'evaluation' => 'required|integer|min:1|max:5',
@@ -54,7 +49,7 @@ use Illuminate\Http\Request;
         'evaluation' => $request->evaluation,
        'from_user_id' => Auth::id(),
         'to_user_id' => $user_id
-]);
+    ]);
 
         return redirect()->back()->with('success', 'コメントが投稿されました！');
     }

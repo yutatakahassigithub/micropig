@@ -32,6 +32,15 @@ body {
 }
 
 
+h2 {
+  position: fixed;
+  top: 375px;
+  left: 500px;
+}
+
+
+
+
 .kensaku{
   background-color: #FFFFFF;
   padding: 10px;
@@ -49,10 +58,13 @@ body {
 } 
   
 a {
-  color: brown;
-  text-decoration: none;
+    color: brown;
+    text-decoration: none; 
 }
 
+a:hover, a:active { 
+    color: black; 
+}
 
 img{
    background-color: #FFFFFF;
@@ -62,10 +74,10 @@ img{
   position: fixed;
   height: 200px;
   width: 500px;
-  top:   130px;                     /* 位置指定 */
-  left:  100px;                    /* 位置指定 */
-  right:  0px;                   /* 位置指定 */
-                 /* 中央寄せ */
+  top:   130px;                    
+  left:  100px;                   
+  right:  0px;               
+                
   
  }
  
@@ -73,35 +85,12 @@ img{
   position: fixed;
   height: 70px;
   width: 50px;
-  top:   400px;                     /* 位置指定 */
-  left:  330px;                    /* 位置指定 */
-  right:  0px;                   /* 位置指定 */
-                 /* 中央寄せ */
+  top:   400px;                
+  left:  330px;                  
+  right:  0px;                   
  }
  
- 
- a:hover { 
-  color: orange; 
-}
 
-a:active {
-   color: orange; 
-}
-
-
-.re5ct{
-	width: 300px;
-	height: 450px;
-	border: 1px solid;
-    position:fixed;
-    background-color: #FFFFFF;
-    background-size: cover;
-    background-clip: content-box;
-    background-image: url('背景画像のURL');
-    padding: 20px; /* 余白を設定 */
-    border: 2px solid white;
-    box-sizing: border-box;
-}
 
 .pp1 {
   position: fixed;
@@ -163,11 +152,3 @@ a:active {
   background-color: #FFFFFF;
   padding: 10px;
 }
-
-h2 {
-  position: fixed;
-  top: 375px;
-  left: 500px;
-}
-
-

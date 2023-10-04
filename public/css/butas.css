@@ -64,16 +64,6 @@ h5 {
  
 }
     
-hr {
-  border-top: 2px dashed #FFFFFF;
-  background-color: #FFFFFF;
-  position: relative;
-  width: 100%;
-  top: -100px;
-  left: 0px;
-}
-
-    
 img {
  max-width: 100%;
  max-height: 100%;

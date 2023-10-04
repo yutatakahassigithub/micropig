@@ -12,7 +12,6 @@ use App\Http\Controllers\PasswordController;
 
 Route::put('/password/update', [PasswordController::class, 'update'])->name('password.update');
 
-
 Route::get('/', function () {
     return view('welcome');
 });

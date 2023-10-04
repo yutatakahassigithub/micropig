@@ -50,28 +50,25 @@ body {
 } 
   
 a {
-  color: brown;
-  text-decoration: none;
+    color: brown;
+    text-decoration: none; 
+}
+
+a:hover, a:active { 
+    color: black; 
 }
 
 .pig1 {
   position: fixed;
   height: 200px;
   width: 500px;
-  top:   150px;                     /* 位置指定 */
-  left:  300px;                    /* 位置指定 */
-  right:  0px;                   /* 位置指定 */
-                 /* 中央寄せ */
+  top:   150px;                 
+  left:  300px;                   
+  right:  0px;                   
+                
   
  }
  
- a:hover { 
-  color: orange; 
-}
-
-a:active {
-   color: orange; 
-}
 
 
 

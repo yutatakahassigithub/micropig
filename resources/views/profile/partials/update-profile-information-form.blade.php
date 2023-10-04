@@ -1,9 +1,9 @@
 <section class="flex flex-col items-center">
     <div class="w-full md:w-1/2 lg:w-1/3 bg-white p-6 rounded-lg shadow-md">
     <nav class="mb-4">
-        <a href="{{ url('/dashboard') }}" class="btn">Top　</a>
-        <a href="{{ url('/impression') }}" class="btn">impression</a>
-        <a href="{{ url('/Matching') }}" class="btn">　Matching</a>
+        <a href="{{ url('/dashboard') }}" class="btn">Topに移動！　</a>
+        <a href="{{ url('/impression') }}" class="btn">impressionに移動！</a>
+        <a href="{{ url('/Matching') }}" class="btn">　Matchingに移動！</a>
     </nav>
     
     <header>
@@ -12,7 +12,7 @@
         </h2>
 
         <p class="mt-1 text-sm text-gray-600">
-            {{ __("Update your account's profile information and email address.") }}
+            {{ __("PROFILEに情報を入力するとkensakuページに自分の飼い主情報が掲示されます！編集もできます！") }}
         </p>
     </header>
 

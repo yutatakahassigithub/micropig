@@ -21,7 +21,7 @@ class AuthenticatedSessionController extends Controller
     /**
      * Handle an incoming authentication request.
      */
-    public function store(LoginRequest $request): RedirectResponse  // 修正: 戻り値の型をRedirectResponseに変更
+    public function store(LoginRequest $request): RedirectResponse 
     {
         $request->authenticate();
         $request->session()->regenerate();
@@ -32,7 +32,7 @@ class AuthenticatedSessionController extends Controller
     /**
      * Destroy an authenticated session.
      */
-    public function destroy(Request $request): RedirectResponse  // 修正: 戻り値の型をRedirectResponseに変更
+    public function destroy(Request $request): RedirectResponse  
     {
         Auth::guard('web')->logout();
 
