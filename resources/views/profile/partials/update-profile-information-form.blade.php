@@ -1,4 +1,5 @@
-<section>
+<section class="flex flex-col items-center">
+    <div class="w-full md:w-1/2 lg:w-1/3 bg-white p-6 rounded-lg shadow-md">
     <nav class="mb-4">
         <a href="{{ url('/dashboard') }}" class="btn">Top　</a>
         <a href="{{ url('/impression') }}" class="btn">impression</a>
@@ -118,6 +119,7 @@
             @endif
         </div>
     </form>
+    </div>
 </section>
 <script>
 function previewImage(input) {

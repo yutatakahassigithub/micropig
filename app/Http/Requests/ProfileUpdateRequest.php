@@ -14,19 +14,10 @@ class ProfileUpdateRequest extends FormRequest
      * @return array<string, \Illuminate\Contracts\Validation\Rule|array|string>
      */
     public function rules(): array
-{
-    \Log::info('Received area value:', ['area' => $this->input('area')]);
-
-    return [
-        'name' => ['string', 'max:255'],
-        'email' => ['email', 'max:255', Rule::unique(User::class)->ignore($this->user()->id)],
-        'owner' => ['boolean'],
-        'picture' => ['file', 'max:500', 'nullable'],
-        'explain' => ['string', 'max:300', 'nullable'],
-        'area' => ['nullable', Rule::in(['east', 'west', 'islands'])],
-
-        'sns' => ['string', 'max:100', 'nullable'],
-    ];
-}
-
+    {
+        return [
+            'name' => ['string', 'max:255'],
+            'email' => ['email', 'max:255', Rule::unique(User::class)->ignore($this->user()->id)],
+        ];
+    }
 }

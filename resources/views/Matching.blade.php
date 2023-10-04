@@ -23,32 +23,12 @@
     </div>
     </x-app-layout>
     <h1>Mini Pig Matching</h1>
-    <hr class="hr" width=400 size=3>
     <div class="pig1">
         <img src="../css/match_micropig.jpg"　alt="pig1 Logo" />
-    </div>
-     <div class="pig2">
-        <img src="../css/sanple.jpg"　alt="pig1 Logo" />
     </div>
     <p class="pp1">・このコンテンツページではマイクロブタを買っている飼い主さん<br>
         とのマッチング紹介サービスである。会いたいマイクロブタの飼い主さん<br>
     との連絡先を提供しています。会いたい場合は連絡してください。</p>
-       <p class="pp3">↓このようなサンプルみたいな情報が表示されています！</p>
-     <p class="pp2">ツイッター<br>
-     @adsdfjasidjidfajsdi<br>
-     メールアドレス<br>
-     @fdsafadsfdsafdsa</p>
-     <div class="roko1">
-        <button>飼い主の<br>
-        口コミを投稿する。</button>
-    </div>
-    <div class="roko2">
-        <button>飼い主の<br>
-        口コミを閲覧する！</button>
-    </div>
-    <p class="p">私は高橋優太。20歳関東に住んでいます。<br>
-    私の家族ブタロウくんです、かわいいです。<br>
-    ぜひ連絡してきてください！<br>
     </p>
     <hr class="hr1" width=400 size=3>
     <script src="{{ asset('css/butas_match.js') }}"></script>
@@ -57,6 +37,5 @@
        <a href="{{ route('kensaku') }}" class="btn">飼い主さん情報<br>
     ページへ移動する！</a>
     </div>  
-        <div class="rect"></div>  
 </body>
 </html>

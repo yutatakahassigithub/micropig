@@ -23,17 +23,8 @@
     </div>
     </x-app-layout>
     <h1>Mini Pig Matching kensaku</h1>
-    <hr class="hr" width=400 size=3>
-    
-    <hr class="hr1" width=400 size=3>
    <script src="{{ asset('css/butas_match.js') }}"></script>
-
-    <h2>飼い主さんを探す！連絡が取れます！<br>ぜひ連絡してみてください!</h2>
-      <div class="filter-buttons">
-        <button onclick="filterOwners('east')"></button>
-        <button onclick="filterOwners('west')"></button>
-        <button onclick="filterOwners('islands')"></button>
-    </div>
+    <h2>飼い主さんを探す！<br>連絡が取れます！<br>ぜひ連絡してみてください!</h2>
     <div class="users-list">
     @foreach($users as $user)
         <div class="user-card">
@@ -43,22 +34,18 @@
             <p>SNS: {{ $user->sns }}</p>
             @if($user->picture)
                 <img src="{{ Storage::url($user->picture) }}" alt="User Profile Picture">
-
             @endif
             <p>{{ $user->explain }}</p>
             </div>
         @endforeach
     </div>
-    
 <div class="filter-man">
    <a href="{{ route('rokomimiru', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを閲覧する<br>
     ページへ移動する！</a>
 </div>
-
 <div class="filter-girl">
     <a href="{{ route('rokomitoukou.create', ['user_id' => Auth::check() ? Auth::id() : 'guest']) }}" class="btn">飼い主口コミを投稿する<br>ページへ移動する！</a>
 </div>
-
     </div>  
         <div class="rect"></div>  
 </body>

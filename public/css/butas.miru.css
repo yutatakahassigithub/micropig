@@ -1,5 +1,5 @@
 body {
-    background-color: ;
+    background-color:  #FF9933;
     text-align: center;
 }
 
@@ -7,6 +7,7 @@ body {
     width: 50%;            /* 画面全体の幅を持たせます */
     text-align: center;     /* テキストを中央に寄せます */
     margin-top: 150px;      /* 上部からの距離を調整します */
+    margin-left: 350px;
     padding: 10px 0;        /* 上下の余白を追加します */
 }
 
@@ -37,12 +38,19 @@ body {
   h1 {
     color: #D6FEE2;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 20px;
     position: absolute;
-    top: 20px;
-    left: 650px;
+    top: 0px;
+    left: 100px;
     background-color: brown; 
-}
+  }
+
+  h2 {
+    position: fixed;
+    top: 115px;
+    left: 550px;
+  }
+
 
     
 .p3 {
@@ -96,11 +104,6 @@ a:active {
   left: 700px;
 }
 
-h2 {
-  position: fixed;
-  top: 115px;
-  left: 650px;
-}
 
 .filter-buttons {
   position: fixed;

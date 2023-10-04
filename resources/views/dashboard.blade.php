@@ -28,9 +28,7 @@
     @else
         <p>Welcome, Guest!</p>
     @endif
- 
     <h1>Mini Pig SERVICE TOP</h1>
-    <hr width=400 size=3>
     <h2>🐷マイクロブタとは？</h2>
     <p class="p1">・このサイトではマイクロブタに関する情報、マイクロブタに関するイベント、<br>
     実際の飼い主さんとつながれるサービスなどを提供している。<br>

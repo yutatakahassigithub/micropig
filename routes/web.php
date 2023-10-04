@@ -8,7 +8,9 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\RokomiController;
 use App\Http\Controllers\KensakuController;
+use App\Http\Controllers\PasswordController;
 
+Route::put('/password/update', [PasswordController::class, 'update'])->name('password.update');
 
 
 Route::get('/', function () {
@@ -68,4 +70,3 @@ Route::get('/rokomimiru/{user_id}', [RokomiController::class, 'index'])->name('r
 Route::get('/rokomitoukou/{user_id}', [CommentController::class, 'create'])->name('rokomitoukou.create');
 
 Route::delete('/rokomi/comments/{id}', [RokomiController::class, 'destroy'])->name('rokomi.comments.destroy');
-

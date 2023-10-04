@@ -1,21 +1,24 @@
 body {
-    background-color: bl;
+    background-color: #FF9933;
     text-align: center;
 }
 
-
-
-
-  h1 {
+h1 {
     color: #D6FEE2;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 20px;
     position: absolute;
-    top: 20px;
-    left: 710px;
+    top: 0px;
+    left: 100px;
     background-color: brown; 
 }
 
+h2 {
+  position: fixed;
+  font-size: 20px;
+  top: 100px;
+  left: 30px;
+}
     
 .p3 {
   position: fixed;
@@ -68,12 +71,6 @@ a:active {
   left: 700px;
 }
 
-h2 {
-  position: fixed;
-  top: 100px;
-  left: 50px;
-}
-
 .filter-buttons {
   position: fixed;
   top: 100px;
@@ -83,7 +80,7 @@ h2 {
 
 .filter-man {
   position: fixed;
-  top: 200px;  /* この位置を調節する */
+  top: 300px;  /* この位置を調節する */
   left: 50px; /* この位置を調節する */
   color: blue; 
   background-color: #FFFFFF;
@@ -92,7 +89,7 @@ h2 {
 
 .filter-girl {
   position: fixed;
-  top: 300px;  /* この位置を調節する */
+  top: 400px;  /* この位置を調節する */
   left: 50px; /* この位置を調節する */
   color: blue; 
   background-color: #FFFFFF;
@@ -108,7 +105,7 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: -100px;
     /* position: absolute; を削除 */
     /* top: 40%; も削除 */
     /* left: 5%; も削除 */
@@ -118,13 +115,13 @@ h2 {
     width: 100%;
     height: 40%;
     border-radius: 4px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 0px;
 }
 
 .user-card h3 {
-    margin-top: 30;
+    margin-top: 40;
     margin-bottom: 5px;
     font-size: 20px;
 }
@@ -135,7 +132,7 @@ h2 {
     justify-content: center; /* アイテムを中央に配置 */
     align-items: ceniter; /* 追加: 縦方向も中央に配置 */
     width: 100%;
-    margin-top: 7%;
-    margin-left: -60%;
+    margin-top: 10%;
+    margin-left: 0%;
     gap: 20px; /* このプロパティでカード間の間隔を確保 */
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: ;
+    background-color:  #FF9933;
     text-align: center;
 }
 
@@ -30,10 +30,10 @@ body {
   h1 {
     color: #D6FEE2;
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 20px;
     position: absolute;
-    top: 20px;
-    left: 650px;
+    top: 0px;
+    left: 100px;
     background-color: brown; 
 }
 
@@ -102,13 +102,16 @@ h2 {
   color: blue; 
 }
 
+
+
 .comment-form-container {
-    position: relative;  /* この行を追加 */
-    top: 0;             /* この行を追加 */
-    left: 0;            /* この行を追加 */
-    margin-top: 200px;
-    margin-left: -435px; /* この値はかなり大きいので、必要に応じて調整するか、削除することも考慮してください。 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
 }
+
+
 
 .filter-man {
   position: fixed;
